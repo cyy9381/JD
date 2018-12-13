@@ -1,0 +1,90 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="icon" href="//www.jd.com/favicon.ico">
+    <title>个人注册</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+    <div class="header">
+        <div class="register__center">
+            <div class="logo-con w clearfix">
+                <a href="index.html" class="logo">
+                </a>
+                <div class="logo-title">欢迎注册</div>
+                <div class="have-account">已有账号？ <a href="login.html">请登录&gt;</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <form action="http://127.0.0.1/JD/php/reg.php" method="post" class="register__form" id="register">
+            <div class="form__group">
+                <label class="form__label">用　户　名</label>
+                <input type="text" name="username" class="form__inp" autocomplete="off" maxlength="20" placeholder="您的账户名和登录名"/>
+            </div>
+            <div class="form__group">
+                <label class="form__label">设 置 密 码</label>
+                <input type="password" name="password" class="form__inp" id="password" autocomplete="off" maxlength="20" placeholder="建议使用两种或两种以上字符组合"/>
+            </div>
+            <div class="form__group">
+                <label class="form__label">确 认 密 码</label>
+                <input type="password" name="repass" class="form__inp" autocomplete="off" maxlength="20" placeholder="请再次输入密码"/>
+            </div>
+            <p class="submut__btn"><input type="submit" name="submit" class="form__submit js-register" value="立即注册"/></p>
+        </form>
+    </div>
+    <div class="footer login__center">
+        <div id="footer-2013">
+            <div class="links">
+                <a rel="nofollow" target="_blank" href="//www.jd.com/intro/about.aspx" style="outline: rgb(109, 109, 109) none 0px;">
+                    关于我们
+                </a>
+                |
+                <a rel="nofollow" target="_blank" href="//www.jd.com/contact/" style="outline: rgb(109, 109, 109) none 0px;">
+                    联系我们
+                </a>
+                |
+                <a rel="nofollow" target="_blank" href="//zhaopin.jd.com/">
+                    人才招聘
+                </a>
+                |
+                <a rel="nofollow" target="_blank" href="//www.jd.com/contact/joinin.aspx">
+                    商家入驻
+                </a>
+                |
+                <a rel="nofollow" target="_blank" href="//www.jd.com/intro/service.aspx">
+                    广告服务
+                </a>
+                |
+                <a rel="nofollow" target="_blank" href="//app.jd.com/">
+                    手机京东
+                </a>
+                |
+                <a target="_blank" href="//club.jd.com/links.aspx">
+                    友情链接
+                </a>
+                |
+                <a target="_blank" href="//media.jd.com/">
+                    销售联盟
+                </a>
+                |
+                <a href="//club.jd.com/" target="_blank">
+                    京东社区
+                </a>
+                |
+                <a href="//gongyi.jd.com" target="_blank">
+                    京东公益
+                </a>
+                |
+                <a target="_blank" href="//en.jd.com/" clstag="pageclick|keycount|20150112ABD|9">English Site</a>
+            </div>
+            <div class="copyright">
+                Copyright&nbsp;©&nbsp;2004-2018&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+            </div>
+        </div>
+    </div>
+    <script src='script/js/config.js'></script>
+    <script src="script/thirdplugins/require.js"  async="true" defer data-main="script/js/register.js"></script>
+</body>
+</html>

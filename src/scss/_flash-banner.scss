@@ -1,0 +1,340 @@
+//左侧导航
+.flash {
+    position: relative;
+    height: 480px;
+    background-color: #f0f3ef;
+}
+
+.flash__col1, .flash__col2 {
+    margin-right: 10px;
+    height: 480px;
+    position: relative;
+}
+
+.show-nav {
+    .menu__item {
+        background-color: #d9d9d9;
+    }
+    .menu__part {
+        display: block;
+    }
+}
+
+.menu__list {
+    overflow: hidden;
+    padding: 6px 0;
+    height: 468px;
+    background-color: #fefefe;
+    color: #636363;
+}
+
+.menu__item {
+    overflow: hidden;
+    padding-left: 18px;
+    @include lineHeight(26px);
+    @include transition(background-color);
+    &:hover {
+        background-color: #d9d9d9;
+        .menu__item__link:hover {
+            color: $text-hover;
+        }
+    }
+}
+
+.menu__item__link {
+    font-size: 14px;
+    color: #626262;
+}
+
+.menu__details {
+    position: absolute;
+    z-index: 9;
+    left: 191px;
+    top: 0;
+    width: 998px;
+    min-height: 448px;
+    @include bdstyle($bordercolor: #f7f7f7);
+    background-color: #fff;
+    @include box-shadow(2px, 0, 5px, 0, 0, 0, .3);
+}
+
+.menu__part {
+    padding: 20px 0 10px;
+    overflow: hidden;
+}
+
+.menu__part__left {
+    width: 800px;
+}
+
+.menu__part__right {
+    width: 192px;
+}
+
+.menu__part__left__channel {
+    overflow: hidden;
+    padding-left: 20px;
+    height: 24px;
+    a {
+        float: left;
+        margin-right: 10px;
+        padding: 0 10px;
+        background-color: #333;
+        @include lineHeight(24px);
+        color: #fff;
+        &:hover {
+            background-color: #5c5251;
+            color: #fff;
+        }
+    }
+}
+
+.cate_channel_arrow {
+    margin-left: 5px;
+}
+
+.menu__part__left__details {
+    padding: 10px 0 0 20px;
+}
+
+.menu__part__left__details__item {
+    position: relative;
+    padding-left: 80px;
+    a:hover {
+        color: #c81623;
+    }
+    dt {
+        position: absolute;
+        left: 0;
+        top: 6px;
+        text-align: right;
+        font-weight: 700;
+        @include ellipsis(70px, auto);
+    }
+    dd {
+        overflow: hidden;
+        padding: 5px 0;
+        a {
+            float: left;
+            margin: 3px 0;
+            padding: 0 10px;
+            height: 16px;
+            border-left: 1px solid #e0e0e0;
+            line-height: 16px;
+            white-space: nowrap;
+        }
+    }
+}
+
+.menu__part__right__brand {
+    margin: auto;
+    width: 168px;
+    font-size: 0;
+    a {
+        overflow: hidden;
+        display: inline-block;
+        width: 83px;
+        height: 35px;
+        margin: 0 0 1px 1px;
+        background-color: #e7e7e7;
+    }
+}
+
+.menu__part__right__promotion {
+    margin: 10px auto 0;
+    width: 168px;
+    a {
+        display: block;
+        margin-bottom: 1px;
+        height: 134px;
+        background-color: #e7e7e7;
+    }
+}
+
+//轮播
+.flash__col2 {
+    width: 590px;
+    overflow: hidden;
+}
+
+.flash__sale__banner {
+    position: relative;
+    margin-top: 10px;
+    .item {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    img {
+        width: 590px;
+        height: 470px;
+    }
+}
+
+//商品展示
+.flash__col1, .flash__col3, .flash__col4 {
+    width: 190px;
+    height: 480px;
+}
+
+.flash__sale__rec {
+    .item {
+        width: 190px;
+        height: 150px;
+        margin-top: 10px;
+        a {
+            display: block;
+            background: #fff;
+            @include transition(opacify);
+            &:hover {
+                @include opacity(.8);
+            }
+        }
+        img {
+            width: 190px;
+            height: 150px;
+        }
+    }
+}
+
+//登录注册信息
+.user {
+    height: 150px;
+    background: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.user__cont {
+    position: relative;
+    padding-top: 62px;
+    height: 78px;
+}
+
+.user__cont__avatar {
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+}
+
+.user__cont__avatar__link, .user__cont__avatar__link img {
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+
+.user__cont__avatar__link {
+    @include bdstyle(5px, solid, #e3e1df);
+    @include border-radius(50%);
+    overflow: hidden;
+    @include box-shadow(3px, 6px, 25px, 195, 195, 195, 1);
+}
+
+.user__cont__info {
+    padding: 0 10px;
+    p {
+        @include lineHeight(20px);
+        @include ellipsis(170px, 20px);
+        color: #888;
+    }
+    a {
+        padding: 0 2px;
+        &:hover {
+            color: #c81623;
+        }
+    }
+}
+
+.user__cont__btns {
+    height: 25px;
+    margin-top: 10px;
+}
+
+.user__cont__btn {
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    font-size: 12px;
+    text-align: center;
+    color: #e43f3b;
+    @include lineHeight(25px);
+    @include border-radius(13px);
+    @include box-shadow(6px, 8px, 20px, 45, 45, 45, .15);
+    @include transition2();
+}
+
+.user__cont__btn__plus {
+    background: #363634;
+    color: #e5d790;
+}
+
+//新闻
+.news {
+    background-color: #fff;
+}
+
+.news__tab {
+    position: relative;
+    width: 100%;
+}
+
+.news__tab, .news__tab li {
+    display: inline-block;
+}
+
+.news__tab__tit {
+    font-size: 12px;
+    color: #333;
+    padding: 0 15px;
+    @include ellipsis(auto,18px);
+    max-width: 50px;
+    cursor: pointer;
+}
+
+.news__tab_1 {
+    border-right: 1px solid #dfe0e1;
+}
+
+.news__tab--active {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    margin-left: 13px;
+    width: 27px;
+    height: 2px;
+    background: #db192b;
+    @include transform(0);
+}
+
+.news__more {
+    position: absolute;
+    right: 12px;
+    top: 0;
+}
+
+.news__cont {
+    position: relative;
+    padding-top: 8px;
+    margin: 0 15px;
+    height: 88px;
+    .item {
+        line-height: 22px;
+        color: #999;
+        @include ellipsis(160px, 22px);
+    }
+    .item__link:hover {
+        color: $text-hover;
+    }
+}
+
+.service{
+    position: relative;
+    height: 190px;
+    background-color: #fff;
+}
+.service__inner{
+    padding: 18px 11px 11px;
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import "_reset";
+@import "_var";
+@import "mixin";
+@import "common";
+
+.header {
+    height: 110px;
+    background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg) repeat-x left bottom;
+}
+
+.register__center {
+    width: 1210px;
+    margin: 0 auto;
+    .logo {
+        width: 160px;
+        height: 50px;
+        float: left;
+        margin-top: 24px;
+        background: url(https://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) no-repeat;
+    }
+    .logo-title {
+        float: left;
+        height: 34px;
+        line-height: 34px;
+        font-size: 24px;
+        color: #333;
+        margin-top: 34px;
+    }
+    .have-account {
+        font-size: 16px;
+        float: right;
+        margin-top: 55px;
+        color: #999;
+        a {
+            color: #e22;
+            &:hover {
+                text-decoration: underline;
+                color: #c81623;
+            }
+        }
+    }
+}
+
+.register__form {
+    width: 400px;
+    margin: 50px auto 140px;
+    font-size: 14px;
+    .form__group {
+        position: relative;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    .form__label {
+        width: 87px;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 20px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .form__inp {
+        font-size: 14px;
+        width: 400px;
+        height: 52px;
+        padding-bottom: 10px;
+        padding-left: 127px;
+        padding-top: 16px;
+        border: solid 1px rgb(153, 153, 153);
+        color: #333;
+    }
+}
+
+.error, .err {
+    display: inline-block;
+    color: #f91;
+    font-size: 12px;
+    @include lineHeight(30px);
+}
+
+#username-error, #password-error, #repass-error {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+}
+
+.form__submit {
+    @include lineHeight(54px);
+    text-align: center;
+    color: #fff;
+    background: #e2231a;
+    border: 0;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    &:active {
+        background: #c81623;
+        color: #eababc;
+    }
+    &:hover {
+        background: #c81623;
+    }
+}
+
+.submut__btn {
+    padding-top: 20px;
+}
+
+#footer-2013 {
+    padding-bottom: 30px;
+    text-align: center;
+    .links {
+        a, span {
+            margin: 0 10px;
+        }
+    }
+    .copyright {
+        margin: 10px 0;
+    }
+}
+

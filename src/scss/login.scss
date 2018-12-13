@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+@import "_reset";
+@import "_var";
+@import "mixin";
+@import "common";
+
+.login__center {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#logo {
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+    height: 60px;
+    float: left;
+    b {
+        display: block;
+        width: 110px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
+    }
+}
+
+.q__link {
+    position: relative;
+    color: #999;
+    float: right;
+    top: 52px;
+    b {
+        display: inline-block;
+        width: 18px;
+        height: 14px;
+        margin: 0 5px;
+        background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png) no-repeat;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+}
+
+.cont__tip {
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    .icon__tips {
+        background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png);
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    p {
+        vertical-align: middle;
+        color: #999;
+        font-size: 12px;
+        display: inline-block;
+    }
+    .black:hover {
+        text-decoration: underline;
+    }
+}
+
+.login__banner {
+    width: 100%;
+    height: 475px;
+    background-color: #132af2;
+    margin-bottom: 20px;
+}
+
+.login__bg {
+    background: url(//img30.360buyimg.com/da/jfs/t1/29513/35/180/96913/5c079b87E504a76d2/718555f8c9ebcf17.jpg) 0px 0px no-repeat;
+    background-color: #132af2;
+    height: 475px;
+}
+
+.login__form {
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+    height: 400px;
+    margin-top: 10px;
+    h2 {
+        font-weight: 700;
+        color: #e4393c;
+        font-size: 18px;
+        @include lineHeight(55px);
+        text-align: center;
+        border-bottom: 1px solid #f4f4f4;
+    }
+    .form__group {
+        border: 1px solid #bdbdbd;
+        height: 38px;
+        width: 304px;
+        position: relative;
+        margin: 0 auto 20px;
+    }
+    .user, .psw {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        width: 38px;
+        height: 38px;
+        border-right: 1px solid #bdbdbd;
+        background: url(../img/form.png) no-repeat;
+    }
+    .psw {
+        background-position: -48px 0;
+    }
+    .form__inp {
+        width: 304px;
+        height: 38px;
+        padding: 10px 0 10px 50px;
+        border: none;
+    }
+    .item-error {
+        border: 1px solid #e4393c;
+        .user, .psw {
+            border-right-color: #e4393c;
+        }
+    }
+}
+
+.msg-wrap {
+    min-height: 23px;
+    width: 306px;
+    margin: 5px 20px;
+    .msg-error {
+        position: relative;
+        background: #ffebeb;
+        color: #e4393c;
+        border: 1px solid #faccc6;
+        padding: 3px 10px 3px 40px;
+        line-height: 15px;
+        height: auto;
+        b {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            display: block;
+            margin-top: -8px;
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            background: url(../img/form.png) -104px -49px no-repeat;
+        }
+    }
+}
+
+.submut__btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form__submit {
+    background: #e4393c;
+    color: #fff;
+    width: 306px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    @include lineHeight(40px);
+}
+
+.login__footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: auto;
+    background-color: #fcfcfc;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    width: 306px;
+    a {
+        color: #b61d1d;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    b {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 16px;
+        height: 16px;
+        overflow: hidden;
+        background: url(../img/form.png) -104px -75px no-repeat;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+}
+
+#footer-2013 {
+    padding-bottom: 30px;
+    text-align: center;
+    .links {
+        a, span {
+            margin: 0 10px;
+        }
+    }
+    .copyright {
+        margin: 10px 0;
+    }
+}

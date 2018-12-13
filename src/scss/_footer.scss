@@ -1,0 +1,275 @@
+.grid_c1 {
+    margin: 0 auto;
+    width: 1190px;
+}
+#J_footer{
+    margin-bottom: 125px;
+}
+.mod_footer {
+    height: 500px;
+    background-color: #eaeaea; }
+
+/* 服务承诺 */
+.mod_service {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede; }
+
+.mod_service_list {
+    overflow: hidden;
+    height: 42px; }
+
+.mod_service_item {
+    float: left;
+    width: 297px; }
+
+.mod_service_unit {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 180px; }
+
+.mod_service_tit {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 42px;
+    text-indent: -999px; }
+
+.mod_service_txt {
+    overflow: hidden;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444; }
+
+/* 多快好省的图标 */
+.mod_service_duo {
+    background-repeat: no-repeat;
+    background-position: 0 -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_service_kuai {
+    background-repeat: no-repeat;
+    background-position: -41px -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_service_hao {
+    background-repeat: no-repeat;
+    background-position: -82px -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_service_sheng {
+    background-repeat: no-repeat;
+    background-position: -123px -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+/* 帮助清单 */
+.mod_help {
+    padding: 20px 0; }
+
+.mod_help_list {
+    overflow: hidden;
+    height: 160px; }
+
+.mod_help_nav {
+    float: left;
+    width: 198px;
+    line-height: 22px; }
+
+.mod_help_nav_tit {
+    margin-bottom: 5px;
+    font-size: 14px; }
+
+.mod_help_cover {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: right;
+    width: 200px;
+    height: 150px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_help_cover_tit {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center; }
+
+.mod_help_cover_con {
+    padding: 0 10px; }
+
+.mod_help_cover_more {
+    text-align: right; }
+
+/* 版权信息 */
+.mod_copyright_inner {
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center; }
+
+.mod_copyright_split {
+    margin: 0 10px;
+    color: #ccc; }
+
+.mod_copyright_info {
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999; }
+
+.mod_copyright_info a {
+    color: #999; }
+
+.mod_copyright_info a:hover {
+    color: #c81623; }
+
+.mod_copyright_inter_ico {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    vertical-align: -1px;
+    margin-right: 10px;
+    background-repeat: no-repeat; }
+
+.mod_copyright_inter_ico_global {
+    background-repeat: no-repeat;
+    background-position: -108px -155px;
+    width: 15px;
+    height: 12px;
+    margin-top: -1px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_inter_ico_rissia {
+    background-repeat: no-repeat;
+    background-position: -168px -155px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_inter_ico_indonesia {
+    background-repeat: no-repeat;
+    background-position: -148px -155px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_inter_ico_thailand {
+    background-repeat: no-repeat;
+    background-position: -108px -172px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_inter_ico_spain {
+    background-repeat: no-repeat;
+    background-position: -128px -155px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth {
+    margin: 25px 0; }
+
+.mod_copyright_auth_ico {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    line-height: 1000px; }
+
+.mod_copyright_auth_ico_1 {
+    background-repeat: no-repeat;
+    background-position: -205px -148px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth_ico_2 {
+    background-repeat: no-repeat;
+    background-position: -205px -111px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth_ico_3 {
+    background-repeat: no-repeat;
+    background-position: -205px -74px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth_ico_4 {
+    background-repeat: no-repeat;
+    background-position: -205px -37px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth_ico_5 {
+    background-repeat: no-repeat;
+    background-position: -205px 0;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_auth_ico_6 {
+    background-repeat: no-repeat;
+    background-position: 0 -155px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png); }
+
+.mod_copyright_license {
+    margin-left: 16px; }
+
+/* 适配高清屏 */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
+    .mod_service_duo {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: 0 0;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_service_kuai {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -38.5px 0;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_service_hao {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -77px 0;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_service_sheng {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: 0 -44.5px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_copyright_inter_ico_global {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -38.5px -44.5px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_copyright_inter_ico_rissia {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -56px -44.5px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_copyright_inter_ico_indonesia {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -73.5px -44.5px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_copyright_inter_ico_thailand {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -91px -44.5px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); }
+    .mod_copyright_inter_ico_spain {
+        background-repeat: no-repeat;
+        -moz-background-size: 113px 86.5px;
+        background-size: 113px 86.5px;
+        background-position: -38.5px -59px;
+        background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer@2x.png); } }
+
+/* 窄版 */
+.o2_mini .mod_service_item {
+    width: 247px; }
+
+.o2_mini .mod_help_nav {
+    width: 158px; }
+
+.o2_mini .mod_copyright_links .mod_copyright_split {
+    margin: 0 6px; }

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@import "_reset";
+@import "_var";
+@import "mixin";
+@import "_common";
+@import "_top-banner";
+@import "_header";
+@import "_flash-banner";
+@import "_floors";
+@import "_footer";
+
+.index {
+    background-color: #f0f3ef;
+}

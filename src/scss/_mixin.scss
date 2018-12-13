@@ -1,0 +1,74 @@
+@mixin bdstyle($borderwidth:1px,$borderstyle:solid,$bordercolor:#abcdef) {
+    border: $borderwidth $borderstyle $bordercolor;
+}
+
+@mixin ellipsis($w:200px,$h:30px) {
+    width: $w;
+    height: $h;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin clearfix() {
+    &::after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+}
+
+@mixin lineHeight($h,$lh:$h) {
+    height: $h;
+    line-height: $lh;
+}
+
+//兼容
+@mixin opacity($opacity:0.5) {
+    opacity: $opacity;
+    filter: alpha(opacity=$opacity*100);
+}
+
+@mixin box-shadow($x:1px,$y:2px,$z:1px,$a:0,$b:0,$c:0,$d:.1) {
+    -webkit-box-shadow: $x $y $z rgba($a, $b, $c, $d);
+    -moz-box-shadow: $x $y $z rgba($a, $b, $c, $d);
+    box-shadow: $x $y $z rgba($a, $b, $c, $d);
+}
+
+@mixin border-radius($top,$right:$top,$bottom:$top,$left:$top) {
+    -webkit-border-radius: $top $right $bottom $left;
+    -moz-border-radius: $top $right $bottom $left;
+    border-radius: $top $right $bottom $left;
+}
+
+@mixin transition($x) {
+    -webkit-transition: $x .2s ease;
+    -o-transition: $x ease .2s;
+    -moz-transition: $x ease .2s;
+    transition: $x .2s ease;
+}
+
+@mixin transition2() {
+    -webkit-transition: background .3s ease, color .3s ease;
+    -o-transition: background .3s ease, color .3s ease;
+    -moz-transition: background .3s ease, color .3s ease;
+    transition: background .3s ease, color .3s ease;
+}
+
+@mixin transform($deg) {
+    -webkit-transform: translateX($deg);
+    -moz-transform: translateX($deg);
+    -ms-transform: translateX($deg);
+    transform: translateX($deg);
+}
+
+@mixin box-sizing() {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin blur($blur:3px) {
+    -webkit-filter: blur($blur);
+    filter: blur($blur);
+}
